@@ -1,0 +1,81 @@
+AWS
+
+
+
+
+Appliations
+------------------
+
+1.Standalone Applications==> It will workes on its own[ Eg: Calculator,
+
+No internet connectivity Required 
+ Mobile apps also we can consider as standalone Application 
+
+
+
+2.Web Applications/ Enterprice Application ==> What ever we are Acessing via web 
+
+1. Static Applications
+2 . Dynamic web Applications
+
+
+Static Applications==> Only Static Content their is no intraction is not happening Plain HTML javascript css images 
+
+Dynamic web application==> Intraction between the client 
+
+Eg: Flipkart as a user he can login ,pay the money , return the products
+
+If you want to develop any Dynamic web Applications. we neeed tp know the Application Architecture
+
+Application Architecture
+------------------------
+
+3 Tier / N -Tier Application Architecture
+
+
+AAny layer we take we have 
+
+Presentation Tier (Layer)==>GUI (Graphical User Interface) What is presented to me Like Flipkart,Amazon webite etc
+
+(HTML,CSS, JavaScript, reactJS, JQuery JavaScript pages)
+
+Who is developing Presentation layer?
+
+A)UI Developers/ WebDevelopers/FrontEnd Developer taking care and writing code 
+
+If it is pure Static web application only presentation layer is enough
+ 
+how to deploy pure staticweb Application ?
+the application webserver is enough to deploy the StaticWeb Application 
+
+Eg: Apache Httpd
+    Nginx
+    HA proy
+
+
+
+Application Tier (Layer)==> API's (Java,Python,nodejs,golag, .Net, Ruby)
+
+Tomcat, JBoss, WildFly, WebLogic ..etc
+
+In the background application layer is commuicating wth Database layer
+
+Database layer is maintain Data & Store the Data
+
+Whow is developing Application Tier?
+
+App/Backend Developer -->java, python Developers
+
+
+
+Data(Base) Tier (layer) ===> 1.SQl (RDBMS)--> MYSQL, Oracle, PostGress,IBM DB2
+                             2. No SQL ( Document Oriented Databases) ---> MongoDB , CouchBase, Cassander. like this we have 
+
+No SQL will stores in JSon Format
+
+Who will be maintaing Database tier?
+
+A)DBA Database Adminestrative task , taking backups , procedures & functions 
+
+
+
